@@ -1,0 +1,136 @@
+* {
+  font-size: 15px;
+  font-family: "Terminus (TTF)", "openmoji";
+}
+
+window#waybar {
+    background: rgba(0,0,0,0);
+}
+
+#battery {
+  margin: 3px 0px 3px 0px;
+  background: #1d1f21;
+  padding: 3px 4px 3px 4px;
+  color: #c5c8c6;
+}
+
+#custom-quit {
+  margin: 3px 0px 3px 0px;
+  padding: 3px 9px 3px 5px;
+  border-right: 2px solid #1d1f21;
+  border-top: 2px solid #1d1f21;
+  border-bottom: 2px solid #1d1f21;
+  background: #F00;
+  color: #FFF;
+}
+
+#clock {
+  margin: 3px 0px 3px 0px;
+  padding: 3px 5px 3px 7px;
+  background: #1d1f21;
+  color: #c5c8c6;
+}
+
+#custom-spotify {
+  margin: 3px;
+  padding: 3px 3px 3px 3px;
+  border-radius: 10px;
+  background: #1d1f21;
+  color: #c5c8c6;
+}
+#pulseaudio {
+  margin: 3px 0px 3px 5px;
+  padding: 3px 5px 3px 5px;
+  background: #1d1f21;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: #c5c8c6;
+}
+
+#network {
+  background: #1d1f21;
+  color: #c5c8c6;
+  margin: 3px 0px 3px 0px;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#workspaces {
+  padding: 3px 9px 3px 9px;
+  background: #1d1f21;
+  color: #c5c8c6;
+  border-radius: 10px;
+  margin-top: 3px;
+}
+
+#workspaces button {
+  padding: 3px 2px 3px 2px;
+  background: #1d1f21;
+  color: #4a4b4d;
+}
+
+#workspaces button.focused {
+  border-bottom: 5px solid #a4a5a6;
+  background: #4a4b4d;
+  color: #c5c8c6;
+  padding: 0px 0px 3px 0px;
+}
+
+#custom-ilias {
+  background: #1d1f21;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #c5c6c8;
+  padding: 3px 7px 3px 7px;
+  margin: 3px 0px 3px 0px;
+}
+
+#custom-youtube {
+  background: #1d1f21;
+  color: #c5c8c6;
+  padding: 3px 5px 3px 5px;
+  margin: 3px 0px 3px 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: 2px solid #4a4b4d;
+}
+
+#backlight {
+  background: #1d1f21;
+  color: #c5c8c6;
+  margin: 3px 0px 3px 0px;
+  padding: 5px;
+}
+
+#custom-pyloader {
+  background: #1d1f21;
+  color: #c5c8c6;
+  margin: 3px 0px 3px 0px;
+  padding: 3px 5px 3px 5px;
+  border-right: 2px solid #4a4b4d;
+}
+
+#custom-whatsapp {
+  background: #1d1f21;
+  color: #c5c8c6;
+  margin: 3px 0px 3px 0px;
+  padding: 3px 5px 3px 5px;
+  border-right: 2px solid #4a4b4d;
+}
+
+#custom-dkb {
+  background: #1d1f21;
+  color: #c5c8c6;
+  margin: 3px 0px 3px 0px;
+  padding: 3px 5px 3px 5px;
+  border-right: 2px solid #4a4b4d;
+}
+
+#custom-mail {
+  background: #1d1f21;
+  color: #c5c8c6;
+  margin: 3px 0px 3px 0px;
+  padding: 3px 5px 3px 5px;
+  border-right: 2px solid #4a4b4d;
+}
