@@ -17,6 +17,7 @@ used programs:
   - dolphin
   - wofi
   - waybar
+  - kitty
 
 To-Do's:
   - fiixng the spotify player
