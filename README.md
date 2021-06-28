@@ -22,3 +22,6 @@ used programs:
 To-Do's:
   - fiixng the spotify player
   - fixing links to most used programs and websites
+
+
+The images for the background & wallpaper were found on gallerix.org and are located in the Museums and Art Galleries, Birmingham.
