@@ -1,0 +1,72 @@
+# SwayWM global configuration. For detailed information type "man sway"
+# Author: Oscar Carballal Prego <oscar.carballal@protonmail.com>
+
+###############################################################################
+# TODO:
+#   + Sway:
+#      - Autoassign workspaces to certain applications
+#
+###############################################################################
+
+#########################
+# Run services
+#########################
+exec mako
+exec waybar
+
+#########################
+# Main definitions
+#########################
+# Logo key. Use Mod1 for Alt. Mod4 for Windows.
+set $mod Mod1
+
+# Your preferred terminal emulator
+set $term kitty
+
+# Your preferred application launcher
+set $menu wofi --show run -Iib -l 5 -W 500 -x -10 -y -51
+
+# Default wallpaper
+set $wallpaper ~/.config/sway/images/london_wallpaper.jpg
+
+# Default lockscreen background
+set $lockscreenbg ~/.config/sway/images/wallpaper.jpg
+
+# Remove all borders from applications
+default_border none
+
+# Stablish gaps between windows and from the screen edge/ i3-gpas
+gaps inner 6
+gaps outer 2
+
+#########################
+# Main keybindings
+#########################
+# Start a terminal
+bindsym $mod+Return exec $term
+
+# Kill focused window
+bindsym $mod+Shift+q kill
+
+# Start your launcher
+bindsym $mod+e exec $menu
+
+# Drag floating windows by holding down $mod and left mouse button.
+# Resize them with right mouse button + $mod.
+# Despite the name, also works for non-floating windows.
+# Change normal to inverse to use left mouse button for resizing and right
+# mouse button for dragging.
+floating_modifier $mod normal
+
+# Reload the configuration file. Be aware that some changes might need
+# a session logout (gaps, for example)
+bindsym $mod+Shift+r reload
+
+# Exit sway (logs you out of your Wayland session)
+bindsym $mod+Shift+e exec swaynag -t warning -m 'Do you really want to exit sway?' -b 'Yes, exit sway' 'swaymsg exit'
+
+# kill and execute waybar
+exec_always ~/.config/waybar/waybar.sh
+
+include ~/.config/sway/config.d/*
+
